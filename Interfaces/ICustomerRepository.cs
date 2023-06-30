@@ -5,11 +5,11 @@ namespace accounting.Repository
 {
 	public interface ICustomerRepository
 	{
-            Customer GetById(int id);
-            void Add(Customer customer);
-            void Update(Customer customer);
-            void Delete(Customer customer);
-        
+            Task<Customer> GetById(int id);
+            Task<Customer> Create(Customer customer);
+            Task Update(Customer customer);
+            Task Delete(int id);
+            Task<IEnumerable<Customer>> GetAll();
     }
 }
 
