@@ -37,10 +37,10 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "accounting": {
+    "Line": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:24517;http://localhost:61397",
+      "applicationUrl": "https://localhost:65353;http://localhost:45085",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

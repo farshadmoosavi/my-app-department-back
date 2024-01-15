@@ -30,6 +30,9 @@
     <None Remove="Data\" />
     <None Remove="Repositories\" />
     <None Remove="Services\" />
+    <None Remove="ModelView\" />
+    <None Remove="Repositories\Interfaces\" />
+    <None Remove="Repositories\Implementations\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Configuration\" />
@@ -38,5 +41,13 @@
     <Folder Include="Data\" />
     <Folder Include="Repositories\" />
     <Folder Include="Services\" />
+    <Folder Include="ModelView\" />
+    <Folder Include="Repositories\Interfaces\" />
+    <Folder Include="Repositories\Implementations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestLibrary\TestLibrary.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
